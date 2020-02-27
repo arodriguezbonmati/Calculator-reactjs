@@ -5,15 +5,63 @@
     padding: 5px;
     margin: 5px;
     border-radius: 10px;
-    background-color: #DBDBDB;
+    background-color: rgba(219, 219, 219, 0.384);
+    cursor: pointer;
+    line-height: 50px;
 }
 
-.keyboard {
-    width: 288px;
-    margin: 200px auto;
+.key:hover{
+    background-color: #DBDBDB;
 }
 
 .keyboard_basic_top {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.keyboard_basic_bottom {
+    display: flex;
+}
+
+.bottom_left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bottom_right {
+    display: flex;
+    flex-direction: column;
+}
+
+.display {
+    background-color: #DBDBDB;
+    width:288px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: right;
+    line-height: 100px;
+}
+
+.keyLong{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgba(219, 219, 219, 0.384);
+    cursor: pointer;
+    flex: 1;
+    line-height: 50px;
+}
+
+.keyLong:hover{
+    background-color: #DBDBDB;
+}
+
+.displayspan {
+    text-align: right;
+    margin:10px;
 }
